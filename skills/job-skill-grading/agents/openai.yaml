@@ -1,0 +1,4 @@
+interface:
+  display_name: "Job Skill Grading"
+  short_description: "Grade skills before publishing"
+  default_prompt: "Use $job-skill-grading to review a job-hunting skill before publication."

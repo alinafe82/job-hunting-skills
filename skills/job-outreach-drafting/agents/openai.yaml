@@ -1,0 +1,4 @@
+interface:
+  display_name: "Job Outreach Drafting"
+  short_description: "Write factual job-search messages"
+  default_prompt: "Use $job-outreach-drafting to draft a concise recruiter message for this role."

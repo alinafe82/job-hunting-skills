@@ -1,0 +1,4 @@
+interface:
+  display_name: "No-Slop Resume Writer"
+  short_description: "Write resumes from real evidence"
+  default_prompt: "Use $no-slop-resume-writer to draft a factual resume from my evidence."

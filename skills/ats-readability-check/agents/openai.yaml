@@ -1,0 +1,4 @@
+interface:
+  display_name: "ATS Readability Check"
+  short_description: "Check truthful ATS readability"
+  default_prompt: "Use $ats-readability-check to check whether my resume is factual and ATS-readable."

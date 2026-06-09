@@ -1,0 +1,40 @@
+{
+  "skills": [
+    {
+      "name": "job-fit-triage",
+      "summary": "Assess roles against candidate evidence and application strategy."
+    },
+    {
+      "name": "evidence-resume-tailoring",
+      "summary": "Tailor resumes from verified achievements and job requirements."
+    },
+    {
+      "name": "job-outreach-drafting",
+      "summary": "Draft concise job-search outreach without inventing claims."
+    },
+    {
+      "name": "interview-evidence-pack",
+      "summary": "Build interview prep packets grounded in role and candidate evidence."
+    },
+    {
+      "name": "offer-ask-planner",
+      "summary": "Prepare negotiation strategy, asks, and scripts for job offers."
+    },
+    {
+      "name": "no-slop-resume-writer",
+      "summary": "Draft resumes from verified evidence without generic filler."
+    },
+    {
+      "name": "ats-readability-check",
+      "summary": "Audit truthful resume parseability and screening relevance."
+    },
+    {
+      "name": "job-skill-creator",
+      "summary": "Create or revise focused skills for this catalog."
+    },
+    {
+      "name": "job-skill-grading",
+      "summary": "Grade skills before publishing or installing them."
+    }
+  ]
+}

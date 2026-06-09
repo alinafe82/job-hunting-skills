@@ -1,0 +1,4 @@
+interface:
+  display_name: "Interview Evidence Pack"
+  short_description: "Prepare focused interview packets"
+  default_prompt: "Use $interview-evidence-pack to build a preparation packet for this interview."

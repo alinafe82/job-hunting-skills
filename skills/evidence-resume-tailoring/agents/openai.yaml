@@ -1,0 +1,4 @@
+interface:
+  display_name: "Evidence Resume Tailoring"
+  short_description: "Adapt resumes from verified proof"
+  default_prompt: "Use $evidence-resume-tailoring to tailor my resume for this job description."

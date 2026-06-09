@@ -1,0 +1,4 @@
+interface:
+  display_name: "Offer Ask Planner"
+  short_description: "Prepare grounded offer strategy"
+  default_prompt: "Use $offer-ask-planner to prepare my offer negotiation plan."

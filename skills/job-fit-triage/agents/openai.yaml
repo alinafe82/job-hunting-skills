@@ -1,0 +1,4 @@
+interface:
+  display_name: "Job Fit Triage"
+  short_description: "Screen roles against real evidence"
+  default_prompt: "Use $job-fit-triage to assess this role against my candidate profile."
