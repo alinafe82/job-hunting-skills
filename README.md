@@ -10,6 +10,7 @@ The repo is intentionally small. Each skill has a required `SKILL.md` file and C
 | --- | --- |
 | `job-fit-triage` | Deciding whether a role is worth applying to, prioritizing openings, or identifying evidence gaps. |
 | `job-search-workflow-automation` | Orchestrating sourcing, triage, preparation, tracking, and follow-ups with user approval gates. |
+| `professional-networking-outreach` | Planning LinkedIn, Meetup, event, alumni, and community networking without spam. |
 | `evidence-resume-tailoring` | Adapting a resume to a specific role using verified candidate evidence. |
 | `job-outreach-drafting` | Writing concise recruiter, referral, hiring manager, or follow-up messages. |
 | `interview-evidence-pack` | Preparing targeted interview packets, question banks, and evidence-backed stories. |

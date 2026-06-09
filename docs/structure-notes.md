@@ -21,3 +21,4 @@ This repo follows the portable Agent Skills baseline and adapts conventions from
 - Block generator signatures and filler claims in public files.
 - Avoid exact-name duplicates with public GitHub skills. Rename generic concepts to job-search-specific names when a public skill already uses the obvious name.
 - Keep automation skills scoped to user-approved preparation and tracking when public examples already cover application-submission systems.
+- Keep networking skills scoped to user-reviewed relationship building when public examples already cover platform autopilot behavior.
