@@ -17,8 +17,9 @@ Automate organization and preparation, not representation. Do not submit applica
 4. De-duplicate roles by company, title, location, and posting URL.
 5. Triage each role with `job-fit-triage`; mark apply, network first, watch, or skip.
 6. For apply-ready roles, prepare materials by invoking the right downstream skill: `evidence-resume-tailoring`, `no-slop-resume-writer`, `ats-readability-check`, or `job-outreach-drafting`.
-7. Queue follow-ups and reminders after user-confirmed applications, interviews, or recruiter conversations.
-8. Produce a daily or weekly review: new roles found, roles skipped, materials ready for review, pending user approvals, stale follow-ups, and next highest-leverage actions.
+7. For network-first roles or event/community paths, prepare relationship-building messages with `professional-networking-outreach`.
+8. Queue follow-ups and reminders after user-confirmed applications, interviews, recruiter conversations, or networking interactions.
+9. Produce a daily or weekly review: new roles found, roles skipped, materials ready for review, pending user approvals, stale follow-ups, and next highest-leverage actions.
 
 ## Automation Modes
 

@@ -12,7 +12,7 @@ The repo is intentionally small. Each skill has a required `SKILL.md` file and C
 | `job-search-workflow-automation` | Orchestrating sourcing, triage, preparation, tracking, and follow-ups with user approval gates. |
 | `professional-networking-outreach` | Planning LinkedIn, Meetup, event, alumni, and community networking without spam. |
 | `evidence-resume-tailoring` | Adapting a resume to a specific role using verified candidate evidence. |
-| `job-outreach-drafting` | Writing concise recruiter, referral, hiring manager, or follow-up messages. |
+| `job-outreach-drafting` | Writing concise role-specific recruiter, referral, hiring manager, or follow-up messages. |
 | `interview-evidence-pack` | Preparing targeted interview packets, question banks, and evidence-backed stories. |
 | `offer-ask-planner` | Planning compensation, scope, title, start-date, or competing-offer discussions. |
 | `no-slop-resume-writer` | Writing a factual resume draft from real candidate evidence without filler. |
