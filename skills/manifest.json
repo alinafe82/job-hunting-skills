@@ -33,10 +33,6 @@
       "summary": "Audit truthful resume parseability and screening relevance."
     },
     {
-      "name": "job-skill-creator",
-      "summary": "Create or revise focused skills for this catalog."
-    },
-    {
       "name": "job-skill-grading",
       "summary": "Grade skills before publishing or installing them."
     }

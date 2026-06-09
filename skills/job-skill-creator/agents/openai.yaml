@@ -1,4 +1,0 @@
-interface:
-  display_name: "Job Skill Creator"
-  short_description: "Create focused job-search skills"
-  default_prompt: "Use $job-skill-creator to add a focused skill to this job-hunting skills repo."
