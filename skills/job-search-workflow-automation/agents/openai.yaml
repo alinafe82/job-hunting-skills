@@ -1,0 +1,4 @@
+interface:
+  display_name: "Job Search Workflow Automation"
+  short_description: "Orchestrate a disciplined job hunt"
+  default_prompt: "Use $job-search-workflow-automation to organize my job search workflow without submitting applications for me."

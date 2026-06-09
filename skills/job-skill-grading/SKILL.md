@@ -10,7 +10,7 @@ description: Grade Agent Skills for this job-hunting catalog before they are ins
 1. Inspect the skill folder, `SKILL.md`, `agents/openai.yaml`, and any bundled resources.
 2. Check routing: name, description, trigger terms, and whether the skill overlaps existing skills.
 3. Check execution value: can another agent follow the workflow without extra context?
-4. Check evidence discipline: does the skill prevent invented candidate facts, fake metrics, or misleading claims?
+4. Check evidence discipline: does the skill prevent invented candidate facts, fabricated metrics, or misleading claims?
 5. Check structure: exact `SKILL.md` casing, one-level resources, useful metadata, and manifest/README alignment.
 6. Run `python3 scripts/validate_skills.py` when reviewing this repo locally.
 7. Give a verdict and the smallest set of changes needed.

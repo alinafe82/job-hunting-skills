@@ -9,6 +9,7 @@ The repo is intentionally small. Each skill has a required `SKILL.md` file and C
 | Skill | Use when |
 | --- | --- |
 | `job-fit-triage` | Deciding whether a role is worth applying to, prioritizing openings, or identifying evidence gaps. |
+| `job-search-workflow-automation` | Orchestrating sourcing, triage, preparation, tracking, and follow-ups with user approval gates. |
 | `evidence-resume-tailoring` | Adapting a resume to a specific role using verified candidate evidence. |
 | `job-outreach-drafting` | Writing concise recruiter, referral, hiring manager, or follow-up messages. |
 | `interview-evidence-pack` | Preparing targeted interview packets, question banks, and evidence-backed stories. |
@@ -45,6 +46,8 @@ python3 scripts/validate_skills.py
 ```
 
 The validator checks skill folder names, `SKILL.md` frontmatter, `agents/openai.yaml`, manifest drift, and public-text quality rules.
+
+Automation skills in this repo prepare and organize work. They do not submit applications, send outreach, use credentials, or work around job-board rules without explicit user action.
 
 ## Structure Notes
 

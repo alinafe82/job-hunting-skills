@@ -24,7 +24,7 @@ description: Write a clear, factual resume from the user's verified evidence wit
 
 ## Slop To Remove
 
-- Generic claims: dynamic, passionate, results-oriented, proven track record, fast-paced, cutting-edge.
+- Generic claims: dynamic, passionate, results-oriented, proven track record, fast-paced, trend-chasing.
 - Empty verbs: helped, worked on, involved in, responsible for, collaborated on without a concrete contribution.
 - Unsupported claims: expert, leader, architected, owned, transformed, optimized without evidence.
 - Dense keyword blocks that are not tied to experience.
