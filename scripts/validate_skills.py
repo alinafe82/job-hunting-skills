@@ -114,8 +114,27 @@ def check_manifest(skill_dirs: list[Path], errors: list[str]) -> None:
         fail(errors, f"{MANIFEST}: missing manifest")
         return
 
-    data = json.loads(MANIFEST.read_text(encoding="utf-8"))
-    listed = [item["name"] for item in data.get("skills", [])]
+    try:
+        data = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError) as exc:
+        fail(errors, f"{MANIFEST}: cannot read valid JSON: {exc}")
+        return
+    if not isinstance(data, dict) or not isinstance(data.get("skills"), list):
+        fail(errors, f"{MANIFEST}: root must contain a skills list")
+        return
+    items = data["skills"]
+    malformed_items = [index for index, item in enumerate(items) if not isinstance(item, dict)]
+    if malformed_items:
+        fail(
+            errors,
+            f"{MANIFEST}: skill entries must be objects (indexes: "
+            f"{', '.join(map(str, malformed_items))})",
+        )
+        return
+    listed = [item.get("name", "") for item in items]
+    duplicates = sorted({name for name in listed if listed.count(name) > 1})
+    if duplicates:
+        fail(errors, f"{MANIFEST}: duplicate skill names: {', '.join(duplicates)}")
     actual = [path.name for path in skill_dirs]
     for item in data.get("skills", []):
         if not NAME_RE.fullmatch(item.get("name", "")):
@@ -170,11 +189,20 @@ def check_public_text(errors: list[str]) -> None:
 
 def main() -> int:
     errors: list[str] = []
-    manifest_data = (
-        json.loads(MANIFEST.read_text(encoding="utf-8")) if MANIFEST.exists() else {"skills": []}
-    )
+    try:
+        manifest_data = (
+            json.loads(MANIFEST.read_text(encoding="utf-8"))
+            if MANIFEST.exists()
+            else {"skills": []}
+        )
+    except (json.JSONDecodeError, OSError):
+        manifest_data = {"skills": []}
+    raw_items = manifest_data.get("skills", []) if isinstance(manifest_data, dict) else []
+    items = raw_items if isinstance(raw_items, list) else []
     manifest_order = {
-        item.get("name"): index for index, item in enumerate(manifest_data.get("skills", []))
+        item.get("name"): index
+        for index, item in enumerate(items)
+        if isinstance(item, dict)
     }
     skill_dirs = sorted(
         [path for path in SKILLS_DIR.iterdir() if path.is_dir()],
